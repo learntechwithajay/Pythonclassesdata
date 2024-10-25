@@ -45,36 +45,36 @@
 #     def m2():
 #         Test.num2 = 100
 
-class Test:
-
-    num = 100
-    lname = "Ajay"
-    fname = "salindra"
-    fnum = 34.5
-    fnum1 = 67.9
-    stac_emp = "Himajesh"
-    def __init__(self):  # accessing the static variable inside the constructure by using classname or self
-        print(Test.num)
-        print(self.num)
-
-    def display(self):  # instance method
-        print(Test.fname)
-        print(self.lname)
-
-    @classmethod
-    def cls_m1(cls):
-        print(cls.fnum)
-        print(Test.fnum1)
-
-    @staticmethod
-    def stac_m2():
-        print(Test.stac_emp)
-
-
-t = Test()
-t.display()
-t.cls_m1()
-t.stac_m2()
+# class Test:
+#
+#     num = 100
+#     lname = "Ajay"
+#     fname = "salindra"
+#     fnum = 34.5
+#     fnum1 = 67.9
+#     stac_emp = "Himajesh"
+#     def __init__(self):  # accessing the static variable inside the constructure by using classname or self
+#         print(Test.num)
+#         print(self.num)
+#
+#     def display(self):  # instance method
+#         print(Test.fname)
+#         print(self.lname)
+#
+#     @classmethod
+#     def cls_m1(cls):
+#         print(cls.fnum)
+#         print(Test.fnum1)
+#
+#     @staticmethod
+#     def stac_m2():
+#         print(Test.stac_emp)
+#
+#
+# t = Test()
+# t.display()
+# t.cls_m1()
+# t.stac_m2()
 
 
 
